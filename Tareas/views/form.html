@@ -1,41 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
 <body>
-    <form name="Describa su perfil" action="../index.html" method="">
-        <h1><img src="../assets/img/undraw_walking_together_674e.svg" width="100px"> Datos Basicos</h1>
-        <label for="perfil">Describa su perfil </label>
-        <input id="perfil">    <br>
-        <label for="Identificacion">Describa su perfil </label> 
-        <input id="Identificacion"> <br>
-        <label for="Apellidos">Describa sus apellidos </label>
-        <input id="Apellidos">   <br>
-        <label for="Nombres">Describa su perfil </label>
-        <input id="Nombres"> <br>
-        <label for="telefono">Describa su perfil </label>
-        <input id="telefono"> <br>
-        <label for="residencia">Describa su perfil </label>
-        <input id="residencia" > <br>
-        <label for="Correo" >Describa su perfil </label>
-        <input id="Correo"> <br>
-        <label for="Contrasena"> contra ewrg </label> 
-        <input id="Contrasena" type="password"name="password"> <br>
-        <label for="Genero">Genero </label> 
-        <input id="perfil" type="radio" name="Genero"> Femenino
-        <input id="perfil" type="radio" name="Genero"> Masculino <br>
-        <label for="Tipoid"> Diga su tipo de identificacion </label> 
-        <select>
-            <option value="0"> Seleccione un tipo de documento </option>
-            <option value="nuip"> nuip </option>
-            <option value="cedula"> cedula </option>
-            <option value="identidad"> identidad </option>
+    <form name="datosBasicos" action="../index.html" method="">
+        <h1><img src="../assets/img/undraw_sign_up_n6im.svg" width="100px">Datos Básicos</h1>
+        <label for="perfil">Describa su perfil</label>
+        <textarea id="perfil" rows="5" cols="100" name="perfil"></textarea><br><br>
+        <label for="tipoI">Tipo de identificación:</label>
+        <select id="tipoI" name="tipoI">
+            <option value="0" selected="selected">Seleccione un Tipo de Documento</option>
+            <option value="NUIP">Nùmero Único de Identificación (NUIP)</option>
+            <option value="Tarjeta de Identidad">Tarjeta de Identidad (TI)</option>
+            <option value="Cédula de Ciudadania">Cédula de Ciudadania</option>
+            <option value="Cédula de Extranjeria">Cédula de Extranjeria</option>
+        </select><br><br>
 
-        </select>
+        <label for="ciudad">¿En qué ciudad vives?</label>
+        <select name="ciudad">
+        <option selected="selected" value="0"> Elige una ciudad</option>
+            <optgroup label="Cundinamarca">
+            <option value="1">Bogotá</option>
+            <option value="2">Chia</option>
+            </optgroup>
+            <optgroup label="Antioquia">
+            <option value="4">Medellin</option>
+            <option value="5">Envigado</option>
+            </optgroup>
+            <optgroup label="Santander">
+                <option value="4">Bucaramanga</option>
+                <option value="5">San Gil</option>
+                </optgroup>
+        </select><br><br>
+
+        <label for="numI">Número de identificación:</label>
+        <input id="numI"><br><br>
+        <label for="apellidos">Apellidos:</label>
+        <input id="apellidos" type="text" name="apellidos"><br><br>
+        <label for="nombre">Nombres:</label>
+        <input id="nombre" type="text" name="nombre"><br><br>
+        <label for="genero">Género</label>
+        <input id="genero" type="radio" name="genero">Femenino
+        <input id="genero" type="radio" name="genero" checked="checked">Masculino<br><br>
+        <label for="ecivil">Estado Civil:</label>
+        <input type="radio" name="ecivil" id="ecivil">Soltero
+        <input type="radio" name="ecivil" id="ecivil">Casado
+        <input type="radio" name="ecivil" id="ecivil">Unión libre
+        <input type="radio" name="ecivil" id="ecivil">Viudo(a)<br><br>
+
+        <label for="telefono">Número telefónico de contacto:</label>
+        <input id="telefono"><br><br>
+        <label for="direccion">Dirección de tu residencia:</label>
+        <input id="direccion" type="text" name="direccion"><br><br>
+        <label for="correo">Correo electrónico de contacto</label>
+        <input id="correo"><br><br>
+        <label for="pass">Contraseña</label>
+        <input id="pass" type="password" name="pass"><br><br>
+        <label>¿Qué te gusta hacer en tu tiempo libre?</label>
+        <input type="checkbox" id="series" name="series">
+        <label for="series">Ver Series</label>
+        <input type="checkbox" id="jugar" name="jugar" checked="checked">
+        <label for="jugar">Jugar Videojuegos</label>
+        <input type="checkbox" id="deportes" name="deportes">
+        <label for="deportes">Hacer Deporte</label><br><br>
+        <label for="archivo"> Sube aquí tu archivo</label>
+        <input type="file" name="archivo"> <br> <br>
+        &nbsp;&nbsp;&nbsp;
+        <input type="submit" value="Enviar">   
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Restablecer">
+        
+        
     </form>
-    
-</body>
-</html>
+
+</body></html>
