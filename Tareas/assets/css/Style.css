@@ -1,1 +1,27 @@
-/*  Archivo */ 
+body{
+margin:5;
+width: auto;
+height: 0;
+}
+
+
+
+
+/*  Archivo  las comas se ponen cuando se le busca dar la misma propiedad a varios elementos*/ 
+/*body { background-color: rgb(255, 0, 204); }, con width y height se ajusta todo el body
+
+
+fabula de la lechera y su cantaro, crear titulo, subtitulo, icono, parte de la fabula, y un enlace en el que salga de donde saca
+mos la esta , poner espaciado, mirar bordes para las tablas  
+*/
+h1 {background-color:blue;
+    color: aquamarine;
+    font-family:Arial;
+    font-style: oblique;
+    font-weight: 700;}
+body { background-image: url("../img/ukelele.jpg");
+    background-repeat: no-repeat;
+
+}
+
+
