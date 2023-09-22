@@ -2,6 +2,7 @@ body{
 margin:5;
 width: auto;
 height: 0;
+text-align: initial;
 }
 
 
@@ -22,6 +23,8 @@ h1 {background-color:blue;
 body { background-image: url("../img/ukelele.jpg");
     background-repeat: no-repeat;
 }
+
+
 
 
 

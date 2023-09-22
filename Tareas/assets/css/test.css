@@ -1,15 +1,19 @@
-
+body {
+    font-family:Calibri, sans-serif;
+}
 
 h1 {color: teal;
-    font-family:Calibri, sans-serif;
+    
     text-align: center;
     font-weight: 400;
 }
 h2 {
-    font-family:Calibri, sans-serif;
+    
     font-weight: 400;
     text-align: center;
 }
+
+
 
 h3 {
     color: teal;
@@ -18,7 +22,49 @@ h3 {
     font-size: 180%;
 }
 
+
+
 text {
-    font-family:Calibri, sans-serif;
+    
     font-size: 120%;
+    text-align: right;
 }
+
+p {
+    text-align: right;
+}
+
+ul {
+    font-size: xx-large;
+    list-style-image: url(../img/flor.png);
+    color: teal;
+    text-align: center;
+    list-style-position:inside;
+}
+
+li {
+    font-size: medium;
+    text-align: left;
+    color: black;
+}
+table {
+    margin: auto;
+    border: 4px solid black;
+    border-collapse: collapse;
+
+
+}
+
+th {
+    background-color: teal;
+    border: 4px solid black;
+    color: white;
+}
+td {
+    border: 4px solid black;
+}
+
+
+
+
+
