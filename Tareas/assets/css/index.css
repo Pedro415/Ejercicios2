@@ -1,0 +1,29 @@
+body {
+    background-color: #000080; 
+    color: white;
+}
+a {
+    color: white; /* Establece el color del texto del enlace en azul */
+    text-decoration: none; /* Quita la subraya por defecto en los enlaces */
+}
+.mi-tabla {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse; /* Colapsar los bordes para evitar espacios entre celdas */
+    background-color: blue; /* Fondo azul */
+}
+
+
+.mi-tabla th {
+    background-color: white; /* Fondo blanco para las celdas de encabezado */
+    color: black; /* Texto negro en las celdas de encabezado */
+    border: 1px solid white; /* Borde blanco */
+    padding: 10px; /* Espaciado interno */
+}
+
+.mi-tabla td {
+    background-color: blue; /* Fondo azul para las celdas de datos */
+    color: white; /* Texto blanco en las celdas de datos */
+    border: 1px solid white; /* Borde blanco */
+    padding: 10px; /* Espaciado interno */
+}

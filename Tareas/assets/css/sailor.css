@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.titulo {
+    margin: 20px auto;
+}
+
+.titulo h1{
+    color: #fff;
+    text-shadow: 0px 0px 10px #ff0000;
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    margin-left: 30px;
+
+}
+
+.titulo img {
+    width: 100px;
+}
+
+.contenido h2{
+    font-family: 'Fredoka one', cursive;
+}
+
+.personaje {
+    width: 800px;
+    background: linear-gradient(#f9a9fb);
+}
